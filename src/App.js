@@ -1,14 +1,8 @@
 import React from 'react';
 import './App.css';
 import LandingPage from './LandinPage/landingPage.js';
+import logo from './Images/logo.svg';
 
-// const tempBackground = {
-//   backgroundColor: 'pink',
-//   color: 'white',
-//   fontSize: '40px',
-//   width: '100vw',
-//   height: '100vh'
-// }
 
 class App extends React.Component{
   constructor(props){
@@ -42,9 +36,8 @@ class App extends React.Component{
     return (
       <div className="App">
         <header className="App-header">
-        {/* {this.state.ScreenSize.width <= 414 ?  */}
-        <LandingPage ScreenWidth={this.state.ScreenSize.width}/> :
-        {/* <div style = {tempBackground} >Hello You There</div> */}
+          <img src={logo} alt= 'logo' className="logo"/>
+          <LandingPage ScreenWidth={this.state.ScreenSize.width}/> 
         </header>
       </div>
     );
