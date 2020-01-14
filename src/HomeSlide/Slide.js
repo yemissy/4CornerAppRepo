@@ -26,8 +26,10 @@ let images = [
 ]
 
 const SlideWidth = {
-    width: document.body.clientWidth,
-    height: 16+'em'
+    width: 21 + 'em',
+    height: 13.5+'em',
+    position: 'relative',
+    left: 0.82 + 'em'
 }
 
 
