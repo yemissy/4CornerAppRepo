@@ -3,17 +3,6 @@
     /* border: solid red; */
     height: 9.188em;
     display: flex;
-    overflow: hidden;
     margin-top: 3em;
 }
 
-/* .Slide-Image-Div {
-    animation: Slide-Animation 20s infinite;
-} */
-
-/* Slide Keyframes and animation */
-@keyframes Slide-Animation {
-    0%{
-
-    }
-}

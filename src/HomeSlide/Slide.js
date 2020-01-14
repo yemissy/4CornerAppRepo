@@ -27,6 +27,7 @@ let images = [
 
 const SlideWidth = {
     width: document.body.clientWidth,
+    height: 16+'em'
 }
 
 
@@ -70,7 +71,7 @@ class SlideComponent extends React.Component{
     render(){
         return(
             <div className="Main-Slide-Container" >
-                <img name="slider" key={this.state.ImageShowing.Title} src={this.state.ImageShowing.Image} alt={`${this.state.ImageShowing.Title}`} style={SlideWidth}/>
+                <img key={this.state.ImageShowing.Title} src={this.state.ImageShowing.Image} alt={`${this.state.ImageShowing.Title}`} style={SlideWidth}/>
             </div>
         )
     }
