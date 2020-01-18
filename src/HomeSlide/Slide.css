@@ -1,8 +1,12 @@
 
 .Main-Slide-Container {
     /* border: solid red; */
-    height: 9.188em;
-    display: flex;
-    margin-top: 3em;
+    position: relative;
+    top: 7em;
+    /* width: 100vw; */
 }
-
+#theImages {
+    /* border: solid blue; */
+    margin-left: -1.1em;
+    /* margin-right:6em */
+}

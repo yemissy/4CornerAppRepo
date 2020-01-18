@@ -1,0 +1,25 @@
+.Menu-Div {
+    /* border: solid red; */
+    position: relative;
+    top: 4em;
+}
+
+.menu {
+    /* border: solid green; */
+    color: black;
+    display: flex;
+    width: 18em;
+    position: relative;
+    top:1em;
+    left: 0.5em;
+    font-size: large;
+}
+.item {
+    flex: 1;
+}
+
+#menuIconBtn{
+    position: absolute;
+    left: 30em;
+    /* top: 2em; */
+}

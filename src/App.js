@@ -37,7 +37,9 @@ class App extends React.Component{
       <div className="App">
         <header className="App-header">
           <img src={logo} alt= 'logo' className="logo"/>
-          <LandingPage ScreenWidth={this.state.ScreenSize.width}/> 
+          <LandingPage 
+          ScreenWidth={this.state.ScreenSize.width}
+          /> 
         </header>
       </div>
     );

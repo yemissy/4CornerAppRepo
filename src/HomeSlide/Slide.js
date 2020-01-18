@@ -47,13 +47,13 @@ class SlideComponent extends React.Component{
     
     componentDidMount(){
         this.swapImage()
-        console.log(CurrentImage)
+        // console.log(CurrentImage)
         
-        console.log(this.state.ImageShowing)
+        // console.log(this.state.ImageShowing)
     }
     swapImage = () => {
         CurrentImage = images[i]
-        console.log("current image is" + images[i].Title)   
+        // console.log("current image is" + images[i].Title)   
         if(i < images.length - 1 ){
             i++;
         }
@@ -61,11 +61,11 @@ class SlideComponent extends React.Component{
             i= 0;
         }
         setTimeout(() => {this.swapImage()},3000)
-        console.log(CurrentImage)
+        // console.log(CurrentImage)
         this.setState({
             ImageShowing: CurrentImage
         })
-        console.log(this.state.ImageShowing)
+        // console.log(this.state.ImageShowing)
         return CurrentImage
 
     }
@@ -73,7 +73,7 @@ class SlideComponent extends React.Component{
     render(){
         return(
             <div className="Main-Slide-Container" >
-                <img key={this.state.ImageShowing.Title} src={this.state.ImageShowing.Image} alt={`${this.state.ImageShowing.Title}`} style={SlideWidth}/>
+                <img id="theImages"  src={this.state.ImageShowing.Image} alt={`${this.state.ImageShowing.Title}`} style={SlideWidth}/>
             </div>
         )
     }
