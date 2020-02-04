@@ -15,18 +15,18 @@ class App extends React.Component{
     }
   } 
   componentDidMount(){
-    console.log(`${this.state.ScreenSize.width}`)
-    console.log(`${this.state.ScreenSize.height}`)
+    // console.log(`${this.state.ScreenSize.width}`)
+    // console.log(`${this.state.ScreenSize.height}`)
   }
   onScreenChange = () => {
-    window.addEventListener('resize', () => {
+    window.addEventListener('resize', () => 
       this.setState({
         ScreenSize:{
           width: document.body.clientWidth,
           height: document.body.clientHeight
         }
       })
-    })
+    )
     // console.log(`${this.state.ScreenSize}`)
   }
 

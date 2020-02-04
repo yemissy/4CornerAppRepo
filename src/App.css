@@ -19,9 +19,11 @@
 
 .logo {
   position: absolute;
-  top: -0.4em;
-  width: 4.5em;
-  height: 4.225em;
+  top: 0em;
+  /* bottom: 18.3em; */
+  z-index: 1;
+  width: 5em;
+  height: 4.8em;
 }
 
 

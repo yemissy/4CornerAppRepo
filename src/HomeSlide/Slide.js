@@ -25,12 +25,22 @@ let images = [
     }
 ]
 
-const SlideWidth = {
-    width: 21.5 + 'em',
+const ImageWidth = {
+    // width: 21.5 + 'em',
     height: 13.5+'em',
     position: 'relative',
-    left: 0.6 + 'em'
+    left: 0.6 + 'em',
+    top: 3 + 'em'
 }
+
+const ImageWidth2 = {
+    width: document.body.clientWidth,
+    height: 13.5+'em',
+    position: 'relative',
+    left: 0 + 'em',
+    top: 3 + 'em',
+}
+
 
 
 var i = 0;
@@ -47,13 +57,10 @@ class SlideComponent extends React.Component{
     
     componentDidMount(){
         this.swapImage()
-        // console.log(CurrentImage)
-        
-        // console.log(this.state.ImageShowing)
+
     }
     swapImage = () => {
         CurrentImage = images[i]
-        // console.log("current image is" + images[i].Title)   
         if(i < images.length - 1 ){
             i++;
         }
@@ -61,7 +68,6 @@ class SlideComponent extends React.Component{
             i= 0;
         }
         setTimeout(() => {this.swapImage()},3000)
-        // console.log(CurrentImage)
         this.setState({
             ImageShowing: CurrentImage
         })
@@ -73,7 +79,10 @@ class SlideComponent extends React.Component{
     render(){
         return(
             <div className="Main-Slide-Container" >
-                <img id="theImages"  src={this.state.ImageShowing.Image} alt={`${this.state.ImageShowing.Title}`} style={SlideWidth}/>
+                <img id="theImages"  
+                src={this.state.ImageShowing.Image} 
+                alt={`${this.state.ImageShowing.Title}`} 
+                style={ImageWidth}/>
             </div>
         )
     }
