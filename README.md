@@ -1,3 +1,12 @@
+# 4CornerAppRepo
+[Click to view the mobile version](http://4corners.surge.sh/)
+
+### About Project. 
+An adaptive and responsive mobile first website for a client. Currently working on the mobile version before I head over to the desktop version. 
+
+Mobile Version will look something like this:
+[Mobile Screenshot]('./Images/Screenshot.png')
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +75,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# 4CornerAppRepo
+
