@@ -3,6 +3,7 @@ import './LandingPage.css'
 import Slide from '../HomeSlide/Slide.js';
 import HamburgerIcon from '../Hamburger/HamburgerIcon.js'
 import SideBarMenu from '../SideBar/SideBarMenu.js';
+import Footer from '../Footer/Footer';
 
 
 
@@ -37,6 +38,7 @@ export default function LandingPage(props){
             <SideBarMenu sideBarOpened={SideBar.sideBarOpened} closeBar={closeSideBar}/>
              :null}
             <Slide ScreenWidth={props.ScreenWidth} />
+            <Footer />
         </div> :
         <div style = {tempBackground} >
             <p>Hello You There</p>
