@@ -2,16 +2,9 @@ import React from 'react';
 import './App.css';
 import LandingPage from './LandinPage/landingPage.js';
 import logo from './Images/logo.svg';
-import { Label } from 'semantic-ui-react';
-// import MobileFooter from './Footer/MobileFooter';
 
 
-const colors = [
-        'red',
-        'orange',
-        'yellow',
-        'olive',
-      ]
+
 class App extends React.Component{
   constructor(props){
     super(props);
@@ -45,13 +38,6 @@ class App extends React.Component{
           <LandingPage 
           ScreenWidth={this.state.ScreenSize.width}
           /> 
-          {colors.map(color => 
-                (
-                <Label circular  color={color} empty key={color} size="small"/>
-                )
-            )}
-          {/* {this.state.ScreenSize.width <= 414 ?
-          <MobileFooter />: null} */}
         </header>
       </div>
     );
