@@ -5,7 +5,7 @@
 An adaptive and responsive mobile first website for a client. Currently working on the mobile version before I head over to the desktop version. 
 
 Mobile Version will look something like this:
-[Mobile Screenshot]('./Images/Screenshot.png')
+![Mobile Screenshot]('./Images/Screenshot.png')
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
