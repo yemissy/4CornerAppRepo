@@ -21,20 +21,21 @@
 }
 .button{
     background-color: #FF3366;
-    height: 3.8em;
+    height: 3.9em;
     width: 16em;
     border: 0.3em solid black ;
-    border-radius: 0.8em;
+    border-radius: 0.2em;
+    margin-left: -0.5em;
 }
 #FollowUs{
     display: flex;
     height: 3.8em;
     position: absolute;
     top: 3em;
-
 }
 #FollowUs > p{
     font-size: 1.5em;
+    color: white;
 }
 #SocialIcons{
     display: flex;

@@ -27,7 +27,7 @@ let images = [
 
 const ImageWidth = {
     width: 'inherit',
-    height: 13.5+'em',
+    height: 'inherit',
     position: 'relative',
 }
 

@@ -1,7 +1,10 @@
 .Menu-Div {
     /* border: solid red; */
-    position: relative;
+    position: absolute;
+    width: 3em;
+    height: 3em;
     top: 4em;
+    right: 2em;
 }
 #menuIcon {
     width: 2.8em;

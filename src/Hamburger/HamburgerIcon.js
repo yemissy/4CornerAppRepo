@@ -6,17 +6,16 @@ import MenuIcon from '../Images/MobileMenu.png';
 
 
 const hamStyel1 = {
-    position:  'absolute',
-    top: 0.1 + 'em',
-    left: 10.3 + 'em',
+    position:  'relative',
+    bottom: 0.7 + 'em',
+    right: 0.6 + 'em',
     width: 3.4 + 'em',
     height: 3.6 + 'em',
-    // top: 1.1 + 'em'
 }
 const hamStyel2 = {
-    position: 'absolute',
-    left: 12 + 'em',
-    top: 0.1 + 'em',
+    position: 'relative',
+    right: 0.7 + 'em',
+    bottom: 0.8 + 'em',
     width: 4 + 'em',
     height: 4 + 'em',
 }

@@ -3,6 +3,7 @@
     /* border: solid red; */
     position: absolute;
     right: 0em;
+    top: 0em;
     height: 100vh;
     width: 17em;
     z-index: 1;
@@ -11,8 +12,9 @@
 } 
 .item {
     display: block;
-    padding: 0.6em;
-    margin-left: -0.5em;
+    padding: 0.3em;
+    margin-left: -0.3em;
+    margin-top: 1.5em;
     text-align: left;
     font-size: 2.5em;
     color: black;
@@ -20,9 +22,9 @@
 
 #clearIconBtn {
     z-index: 1;
-    position: relative;
-    top: 20em;
-    left: 5em;
+    position: absolute;
+    bottom: 5em;
+    left: 8.5em;
 }
 #clearIcon {
     width: 4em;

@@ -1,28 +1,13 @@
 .App {
+  /* background-image: url('./Images/MobileBackground1.jpg');
+  background-size:cover; */
   text-align: center;
-  margin: 0em;
-  padding: 0em;
-}
-
-.App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  width: 100vw;
+  height:100vh;
 }
 
 .logo {
-  position: absolute;
-  top: 0em;
-  /* bottom: 18.3em; */
+  position: relative;
   z-index: 1;
   width: 5em;
   height: 4.8em;

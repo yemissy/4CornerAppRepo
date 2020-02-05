@@ -3,7 +3,7 @@ import './LandingPage.css'
 import Slide from '../HomeSlide/Slide.js';
 import HamburgerIcon from '../Hamburger/HamburgerIcon.js'
 import SideBarMenu from '../SideBar/SideBarMenu.js';
-import Footer from '../Footer/Footer';
+import MobileFooter from '../Footer/MobileFooter.js';
 
 
 
@@ -16,9 +16,8 @@ export default function LandingPage(props){
         width: '100vw',
         height: '100vh',
       }
-    const slideStyle = {
-        width: props.ScreenWidth,
-    }
+
+      
     const [SideBar, setMenu] = useState({HamburgerClicked: false, sideBarOpened: false})
     console.log(SideBar.HamburgerClicked, SideBar.sideBarOpened)
 
@@ -38,7 +37,7 @@ export default function LandingPage(props){
             <SideBarMenu sideBarOpened={SideBar.sideBarOpened} closeBar={closeSideBar}/>
              :null}
             <Slide ScreenWidth={props.ScreenWidth} />
-            <Footer />
+            <MobileFooter />
         </div> :
         <div style = {tempBackground} >
             <p>Hello You There</p>

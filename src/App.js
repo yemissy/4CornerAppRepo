@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import LandingPage from './LandinPage/landingPage.js';
 import logo from './Images/logo.svg';
+// import MobileFooter from './Footer/MobileFooter';
+
 
 
 class App extends React.Component{
@@ -14,10 +16,7 @@ class App extends React.Component{
       }
     }
   } 
-  componentDidMount(){
-    // console.log(`${this.state.ScreenSize.width}`)
-    // console.log(`${this.state.ScreenSize.height}`)
-  }
+
   onScreenChange = () => {
     window.addEventListener('resize', () => 
       this.setState({
@@ -27,7 +26,7 @@ class App extends React.Component{
         }
       })
     )
-    // console.log(`${this.state.ScreenSize}`)
+
   }
 
 
@@ -40,6 +39,8 @@ class App extends React.Component{
           <LandingPage 
           ScreenWidth={this.state.ScreenSize.width}
           /> 
+          {/* {this.state.ScreenSize.width <= 414 ?
+          <MobileFooter />: null} */}
         </header>
       </div>
     );
