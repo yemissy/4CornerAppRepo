@@ -1,5 +1,5 @@
 # 4CornerAppRepo
-[Click to view the mobile version](http://4corners.surge.sh/)
+[Go to this link on your phone: "http://4corners.surge.sh/"](http://4corners.surge.sh/)
 
 ### About Project. 
 An adaptive and responsive mobile first website for a client. Currently working on the mobile version before I head over to the desktop version. 
