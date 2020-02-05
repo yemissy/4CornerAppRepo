@@ -4,6 +4,20 @@
     background-size:cover;
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0em;
 }
+#labelDiv{
+    border: solid red;
+    height: 7em;
+    width: 15em;
+    position: absolute;
+    top: 20em;
+    display: flex;
+}
+.balls{
+    border: solid green;
+    padding: 1em;
+    
+}
+
